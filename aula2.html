@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title>Aula 2 de HTML 5</title>
+    <meta name="description" content="Aula de html5 - Abordando lista, link, imagem e tabela">
+    <meta name="keywords" content="html5, lista, tabela, SEO">
+</head>
+
+<body>
+
+    <h1>Aula 2</h1>
+    <h2>Lista não Ordenada</h2>
+
+    <ul type=""> <!-- Para alterar  -->
+        <li>Item 1</li>
+        <li>Item 2
+            <ul>
+                <li>SubItem 2.1</li>
+                <li>SubItem 2.2</li>
+                <li>SubItem 2.3</li>
+            </ul>
+        </li>
+        <li>Item 3</li>
+    </ul>
+
+    <h2>Lista Ordenada</h2>
+
+    <!-- tipos de lista type A ou 1  -->
+    <ol type="">
+        <li>Item</li>
+        <li>Item</li>
+        <li>Item</li>
+        <li>Item</li>
+    </ol>
+
+    <h2 id="lista-contato">Tabela</h2>
+    <!-- O Atributo border não é indicado -->
+
+    <table border="1">
+        <caption>Lista de contatos</caption>
+        <thead>
+
+            <tr>
+                <th>Nome</th>
+                <th>Telefone</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Aarão</td>
+                <td>14981029723</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>14998763423</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">Total de contatos: 2</td> <!-- Mesclagem de coluna -->  
+                
+            </tr>
+        </tfoot>
+
+    </table>
+
+    <h2>Imagem</h2>
+
+    <img src="img/Paisagem.jpg" alt="Paisagem" width="200" title="legenda de imagem">
+
+    <h2>Link</h2>
+
+    <ul>
+        <li><a href="aula1.html">Aula 1 de html 5</a></li>
+        <li><a href="https://sp.senac.br/marilia" target="_blank">Senac Marília</a></li>
+        <li><a href="#lista-contato">Lista de contato</a></li>
+    </ul>
+
+</body>
+
+</html>
